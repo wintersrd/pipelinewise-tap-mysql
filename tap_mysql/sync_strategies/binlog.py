@@ -31,7 +31,7 @@ LOGGER = singer.get_logger()
 
 SDC_DELETED_AT = "_sdc_deleted_at"
 
-UPDATE_BOOKMARK_PERIOD = 1000
+UPDATE_BOOKMARK_PERIOD = 20000
 
 BOOKMARK_KEYS = {'log_file', 'log_pos', 'version'}
 

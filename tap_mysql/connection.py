@@ -93,6 +93,7 @@ class MySQLConnection(pymysql.connections.Connection):
             "connect_timeout": CONNECT_TIMEOUT_SECONDS,
             "read_timeout": READ_TIMEOUT_SECONDS,
             "charset": "utf8",
+            "max_allowed_packet": 64*1024*1024
         }
 
         ssl_arg = None

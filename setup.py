@@ -18,7 +18,7 @@ setup(
         "pendulum==1.2.0",
         "singer-python==5.9.0",
         "PyMySQL==0.9.3",
-        "backoff==1.3.2",
+        "backoff==1.8.0",
         "mysql-replication==0.21",
     ],
     entry_points="""

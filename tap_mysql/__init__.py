@@ -51,7 +51,7 @@ LOGGER = singer.get_logger()
 pymysql.converters.conversions[pendulum.Pendulum] = pymysql.converters.escape_datetime
 
 
-STRING_TYPES = set(["char", "enum", "longtext", "mediumtext", "text", "varchar"])
+STRING_TYPES = set(["char", "enum", "longtext", "mediumtext", "text", "varchar", "json"])
 
 BYTES_FOR_INTEGER_TYPE = {"tinyint": 1, "smallint": 2, "mediumint": 3, "int": 4, "bigint": 8}
 
